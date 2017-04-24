@@ -12,7 +12,7 @@ TimeSelector  timeSelector = new TimeSelector(this, new TimeSelector.ResultHandl
         	 TimeSelector.SCROLLTYPE.HOUR, 
         	 TimeSelector.SCROLLTYPE.MINUTE);
         
-
+//在style中需要的样式
 
      <style name="time_dialog" parent="android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
@@ -22,7 +22,7 @@ TimeSelector  timeSelector = new TimeSelector(this, new TimeSelector.ResultHandl
         <item name="android:windowBackground">@color/white</item>
     </style>
 
-
+//在布局文件中需要的文件
 
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
